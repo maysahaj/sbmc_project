@@ -1,0 +1,307 @@
+.img-header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+header{
+    background-color: #FCFCFC;
+
+}
+.lang {
+    width: 46%;}
+.img-header-left img {
+    width: 50px;
+}
+.lang img{
+    width: 29px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.lang a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* margin-left: 7px; */
+    margin-right: 15px;
+    color: black;
+}
+.header-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #ccc;
+}
+.social i {
+    color: #515C6F;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.search i {
+    color: #515C6F;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.search {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #252526!important;
+}
+div#navbarNav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    MARGIN-RIGHT: 7PX;
+    MARGIN-LEFT: 7PX;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(252, 252, 252);
+    background-color: #ff6969;
+    border-radius: 4px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(252, 252, 252);
+    border-radius: 4px;}
+    img.d-block.w-100 {
+        height: 32rem;
+    }
+
+    footer{
+      background-color: #252526;
+      }
+       i.fab.fa-snapchat-ghost:hover{
+      color: #FFFC00;
+      }
+       i.fab.fa-youtube:hover{
+       color: #d71e18;
+           background-color: #0000002e;
+      }
+       i.fab.fa-instagram:hover{
+       color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      
+      }
+       i.fab.fa-facebook-f:hover {
+        color: #3b5998;
+      }
+       i.fab.fa-twitter:hover {
+        color: #1DA1F2;
+            background-color: #0000002e;
+      }
+      i.fab.fa-whatsapp:hover{
+         color: #128C7E;
+      
+      }
+    
+ 
+     /*responsive
+  */
+.responsive  .container {
+  height: 60px;
+  background-color: #252526!important;
+      display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+.responsive .container .navbar ul li a {
+  padding: 10px;
+  font-size: 16px;
+  height: auto;
+  line-height: normal;
+  color: #555555;
+}
+.responsive .dropdown-menu.show {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  border-color: #ffff;
+}
+
+.responsive  .container .logo {
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.responsive  .container .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+}
+
+.responsive .container .logo a img {
+  max-width: 100%;
+  max-height: 44px;
+  object-fit: contain;
+  padding: 6px;
+  border-radius: 29px;
+}
+
+.responsive  .container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.responsive  .container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.responsive  .container .navbar ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  text-align: right;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.responsive  .container .navbar ul li a:hover {
+  color: #ffffff;
+  background-color: #252526!important;
+}
+
+.responsive .container .navbar ul .close {
+  display: none;
+  text-align: left;
+  padding: 10px;
+}
+
+.responsive  .container .navbar ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.responsive  .container .navbar .icon-bar {
+  padding: 18px 8px;
+  width: 50px;
+  height: 60px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.responsive  .container .navbar .icon-bar i {
+  background-color: #ffffff;
+  height: 2px;
+}
+
+@media only screen and (max-width: 650px) {
+  .responsive   .container {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .responsive  .container .logo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .responsive  .container .navbar {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+  }
+
+  .responsive  .container .navbar ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+  }
+
+  .responsive  .container .navbar ul li a {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    line-height: normal;
+    color: #555555;
+  }
+
+  .responsive  .container .navbar ul .close {
+    display: block;
+  }
+
+  .responsive  .container .navbar .icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .responsive  .container .navbar ._Menus-show {
+    left: 0;
+  }
+}
+.responsive{
+  display: none;
+}

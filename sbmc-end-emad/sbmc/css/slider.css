@@ -1,0 +1,151 @@
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 50px;
+    line-height: .7;
+    }
+    
+    .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    margin: 0 7px;
+    border-radius: 50%;
+    background: #ddd;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ee6767;
+    }
+    
+    
+    
+    
+    .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+    }
+    
+    /* fix blank or flashing items on carousel */
+    
+    .owl-carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    padding: 6px;
+    -webkit-backface-visibility: hidden;
+    }
+    
+    .owl-carousel .card {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none !important;
+    
+    }
+    
+    .owl-theme .owl-nav:hover i {
+    color: #fff !important
+    }
+    
+
+    #video-s{
+        display:none;
+    }
+    .img-video-s{
+        width: 600px; border-radius: 15px;
+    }
+ 
+
+    /* end fix */
+    
+    .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+    }
+    
+    .owl-nav i {
+    font-size: 52px;
+    }
+    
+    .owl-nav .owl-prev {
+    left: 7PX;
+    }
+    
+    .owl-nav .owl-next {
+    right: 7PX;
+    }
+    
+    .owl-dots {
+    display: none;
+    }
+    
+    .owl-theme .owl-nav [class*=owl-] {
+    width: 24PX;
+    height: 24PX;
+    border-radius: 50%;
+    background: #0000006b;
+    -webkit-box-shadow: 5px 6px 24px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 6px 24px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 6px 24px -9px rgba(0, 0, 0, 0.75)
+    }
+    
+    .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: #cdcbcd;
+    }
+    
+    .owl-nav .owl-prev {
+        left: 7PX !IMPORTANT;
+    }
+    
+    .owl-nav .owl-next {
+    right: 7PX !important;
+    }
+    .owl-prev {
+        LEFT: 9PX;
+    }
+    .fa-caret-left:before {
+    content: "\f0d9";
+    color: #FFF;
+    font-size: 20PX;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    overflow: hidden;
+    }
+    
+    .fa-caret-right:before {
+    content: "\f0d9";
+    color: #FFF;
+    font-size: 20PX;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(60%, -50%);
+    }
+    i.fa.fa-caret-right {
+        transform: scaleX(-1);
+        top: 1px;
+        margin-bottom: 6px;
+        margin-left: 6px;
+    }
+    .owl-theme .owl-nav [class*=owl-]:hover {
+    background:#ff6969;
+    color: #fff;
+    
+    }
+    
+ 
+    
